@@ -89,6 +89,6 @@ Welcome to **PSYNO**, a RESTful API designed to power a social media platform fo
 ## 🫂Contributing
 Feel free to fork this repository, submit issues, or send pull requests. Suggestions for mental health features (e.g., mood tracking, support groups) are welcome!
 
-## ❗Acknowledgements
+## 💁Acknowledgements
 - Built with ❤️ by Ehsan, inspired by the need for mental health support communities.
 - Thanks to the FastAPI and SQLModel communities for amazing tools!
