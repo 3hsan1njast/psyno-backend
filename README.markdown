@@ -70,7 +70,7 @@ Welcome to **PSYNO**, a RESTful API designed to power a social media platform fo
   - Response: Single post.
 - **Create Post**: `POST /posts`
   - Headers: `Authorization: Bearer <token>`
-  - Body: `{"id": null, "user_id": null, "body": "string", "date": null}`
+  - Body: `{"body": "string"}`
   - Response: Created post object.
 - **Update Post**: `PUT /posts/{post_id}`
   - Headers: `Authorization: Bearer <token>`
