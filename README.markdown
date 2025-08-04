@@ -65,9 +65,9 @@ Welcome to **PSYNO**, a RESTful API designed to power a social media platform fo
 
 ### Posts
 - **Get All Posts**: `GET /posts`
-  - Response: List of all posts (accessible to authenticated users).
+  - Response: List of all posts.
 - **Get Post by ID**: `GET /posts/{post_id}`
-  - Response: Single post (accessible to authenticated users).
+  - Response: Single post.
 - **Create Post**: `POST /posts`
   - Headers: `Authorization: Bearer <token>`
   - Body: `{"id": null, "user_id": null, "body": "string", "date": null}`
