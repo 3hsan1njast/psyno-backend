@@ -57,7 +57,7 @@ Welcome to **PSYNO**, a RESTful API designed to power a social media platform fo
 
 ### Authentication
 - **Register**: `POST /register`
-  - Body: `{"id": null, "username": "string", "hashed_password": "string"}`
+  - Body: `{"username": "string", "hashed_password": "string"}`
   - Response: `{"message": "User created successfully"}`
 - **Login**: `POST /login`
   - Body: `{"username": "string", "password": "string"}`
