@@ -1,3 +1,4 @@
+### (still in development!)
 # PSYNO - Social Media API for Mental Health Support
 
 Welcome to **PSYNO**, a RESTful API designed to power a social media platform focused on mental health and emotional well-being. This project aims to create a safe space where users can share their thoughts, connect with others, and support each other through their mental health journeys. Built with Python, FastAPI, SQLModel, and JWT authentication, PSYNO provides a secure and scalable backend for managing user posts.
