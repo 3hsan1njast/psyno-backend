@@ -1,9 +1,9 @@
-### (still in development!)
-# PSYNO - Social Media API for Mental Health Support
+### ⚠️ -- still in development -- ⚠️
+# 🌱PSYNO - Social Media API for Mental Health Support
 
 Welcome to **PSYNO**, a RESTful API designed to power a social media platform focused on mental health and emotional well-being. This project aims to create a safe space where users can share their thoughts, connect with others, and support each other through their mental health journeys. Built with Python, FastAPI, SQLModel, and JWT authentication, PSYNO provides a secure and scalable backend for managing user posts.
 
-## Features
+## 🛠️Features
 
 - **User Authentication**: Secure login and registration using JWT (JSON Web Tokens) with password hashing (bcrypt) for user privacy.
 - **Post Management**: Create, read, update, and delete posts with user-specific access control.
@@ -13,14 +13,14 @@ Welcome to **PSYNO**, a RESTful API designed to power a social media platform fo
 - **RESTful API**: Easy-to-use endpoints with FastAPI for efficient communication.
 - **Database Integration**: SQLite database with SQLModel for storing users and posts.
 
-## Tech Stack
+## 💻Tech Stack
 
 - **Framework**: FastAPI
 - **Database**: SQLite (via SQLModel)
 - **Authentication**: JWT with `python-jose` and `passlib[bcrypt]`
 - **Dependencies**: `uvicorn`, `sqlmodel`, `pydantic`
 
-## Installation
+## ⚙️Installation
 
 ### Prerequisites
 - Python 3.8+
@@ -29,8 +29,8 @@ Welcome to **PSYNO**, a RESTful API designed to power a social media platform fo
 ### Setup
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/PSYNO.git
-   cd PSYNO
+   git clone https://github.com/3hsan1njast/psyno.git
+   cd psyno
    ```
 
 2. **Install Dependencies**
@@ -53,7 +53,7 @@ Welcome to **PSYNO**, a RESTful API designed to power a social media platform fo
      ```
    - Paste the generated key into `SECRET_KEY`.
 
-## API Endpoints
+## 🕸️API Endpoints
 
 ### Authentication
 - **Register**: `POST /register`
@@ -80,18 +80,15 @@ Welcome to **PSYNO**, a RESTful API designed to power a social media platform fo
   - Headers: `Authorization: Bearer <token>`
   - Response: Deleted post object (only owner can delete).
 
-## Usage
+## 👤Usage
 1. Register a new user via `/register`.
 2. Login with `/login` to get a token.
 3. Use the token in the `Authorization` header (e.g., `Bearer <token>`) for protected endpoints like `/posts`.
 4. Test the API with tools like Postman or cURL.
 
-## Contributing
+## 🫂Contributing
 Feel free to fork this repository, submit issues, or send pull requests. Suggestions for mental health features (e.g., mood tracking, support groups) are welcome!
 
-## License
-[Add your license here] (e.g., MIT, GPL) - Specify if you want one, or I can help you choose!
-
-## Acknowledgements
-- Built with love by Ahhsan, inspired by the need for mental health support communities.
+## ❗Acknowledgements
+- Built with ❤️ by Ehsan, inspired by the need for mental health support communities.
 - Thanks to the FastAPI and SQLModel communities for amazing tools!
